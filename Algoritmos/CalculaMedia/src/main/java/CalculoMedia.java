@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class CalculoMedia {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -19,11 +20,12 @@ public class CalculoMedia {
         System.out.printf("A média é :%.2f\n", media);
         teclado.close();
     }
-        // Método que calcula a média de quatro notas
-        private static double calcularMedia(double nota1,double nota2,double nota3,double nota4){
-            return (nota1 + nota2 + nota3 + nota4) / 4;
-        }
 
-
+    // Método que calcula a média de quatro notas
+    private static double calcularMedia(double nota1, double nota2, double nota3, double nota4) {
+        return (nota1 + nota2 + nota3 + nota4) / 4;
     }
+
+
+}
 
